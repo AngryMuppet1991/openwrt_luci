@@ -2726,6 +2726,21 @@ Size: 1044
 SHA256sum: e767d069678bc2628b9719464bd8ae1b9eb3bd5f625981bf083475832f90715c
 Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
 
+Package: luci-proto-bonding
+Version: git-24.072.73299-397b1b2
+Depends: libc, proto-bonding
+Source: feeds/luci/protocols/luci-proto-bonding
+SourceName: luci-proto-bonding
+Section: luci
+SourceDateEpoch: 1710274899
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3883
+Filename: luci-proto-bonding_git-24.072.73299-397b1b2_all.ipk
+Size: 4746
+SHA256sum: 466edd6c13d11622ffd4ece1fd5e03a84ef7e5e4d0290edfea8cf47e3efdde17
+Description:  Support for Link Aggregation (Channel Bonding)
+
 Package: luci-proto-ipv6
 Version: git-24.072.73299-397b1b2
 Depends: libc
